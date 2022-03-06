@@ -1,5 +1,7 @@
 package com.simple.entity;
 
+import java.io.Serializable;
+
 /**
  * 项目: dubbo-study
  * <p>
@@ -8,7 +10,7 @@ package com.simple.entity;
  * @author: WuChengXing
  * @create: 2022-03-06 11:07
  **/
-public class UserAddress {
+public class UserAddress implements Serializable {
     private Integer id;
     private String userAddress; //用户地址
     private String userId; //用户id
